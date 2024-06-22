@@ -2,7 +2,6 @@ import requests
 import time
 import os
 import platform
-from playsound import playsound
 
 # Replace with your actual Eventbrite API key
 api_key = 'JHRO6CIZZJNFTVURCTZT'
@@ -17,6 +16,7 @@ previous_status = None
 
 
 def play_alarm():
+    from playsound import playsound
     playsound('C:/Users/jonda/PycharmProjects/EventBritePinger/resources/alarm_sound.mp3')  # Ensure you have an alarm sound file
 
 
