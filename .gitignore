@@ -1,0 +1,18 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+
+# Editor config
+.idea/*
+.vscode/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+
+# OS files
+.DS_Store
