@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
-CHANNEL_NAME = os.getenv("DISCORD_CHANNEL_NAME")
+CHANNEL_NAME = os.getenv("AX_CHANNEL_NAME")
 STATE_FILE = "last_sent_state.json"
 
 intents = discord.Intents.default()
